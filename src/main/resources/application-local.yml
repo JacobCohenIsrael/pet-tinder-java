@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: DEBUG
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: petTinder

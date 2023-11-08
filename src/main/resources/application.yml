@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  shutdown: graceful
+spring:
+  profiles:
+    active: dev
+  application:
+    name: pet-tinder
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /docs
+petfinder:
+  baseUrl: "https://api.petfinder.com/v2/"
+  key: "gW8Zsfis3YQMFs4Z673cJxlCPJoQ2SRpYmXdSiXbwtprCkojW2"
+  secret: "UxSA1mync8qPEB6P4I19KDiyl8gCqzW1v9Qpc0vz"
